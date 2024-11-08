@@ -1,0 +1,33 @@
+.link{
+    color: orange;
+}
+.link:active{
+    color: greenyellow;
+}
+.link:visited{
+    color: blue;
+}
+.link :hover{
+    color: purple;
+}
+/* .list_item{
+    color: pink;
+    list-style-type: none;
+    font-size: 18px;
+}
+/* .list_item:first-child{
+    color: green;
+} */
+/* .list_item::first-letter{
+    color: blue;
+    font-size: 44px;
+}
+.text::first-line{
+    color: aqua;
+    font-size: 24px;
+} */ 
+.text::after{
+    content: "Merhaba ben sona EKLENDIM!";
+    color: blueviolet;
+    font-size: 24px;
+}
