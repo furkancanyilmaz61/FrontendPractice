@@ -312,17 +312,90 @@ let value;
 
 //DONGULER - LOOPS ONEMLI *****
 //FOR DONGUSU
-for (let i = 0; i < 10; i++) {  //i 10 dan kucuk olana kadar artiyor. i ++ ise her zaman sayiyi bir arttiriyor.
-    if (i == 3) {
-        break;// break oldugu icin 3 u gorunce duruyor.
-        //continue;
-    }
-    console.log(i); //3 e gelene kadar yaziyor continue gelince birdaha dongu olarak basa geliyor.
-}
-const langs = ["Python", "Java", "C++", "Javascript"];
-for (let i = 0; i < langs.length; i++) {
-    console.log(langs[i]);
-}
+// for (let i = 0; i < 10; i++) {  //i 10 dan kucuk olana kadar artiyor. i ++ ise her zaman sayiyi bir arttiriyor.
+//     if (i == 3) {
+//         break;// break oldugu icin 3 u gorunce duruyor.
+//         //continue;
+//     }
+//     console.log(i); //3 e gelene kadar yaziyor continue gelince birdaha dongu olarak basa geliyor.
+// }
+// const langs = ["Python", "Java", "C++", "Javascript"];
+// for (let i = 0; i < langs.length; i++) {
+//     console.log(langs[i]);
+// }
+
+//FUNCTIONS - FONKSIYONLAR
+// function merhaba() {
+//     console.log("Merhaba");
+// }
+// merhaba();
+
+// function merhaba() {
+//     return"Merhaba";
+// }
+// console.log(merhaba());
+
+// function user(name, age) {
+//     console.log(`Isim: ${name} Yas: ${age}`);
+// }
+// user("Furkancan", 24);//yasi vermezsek undefined yazar
+
+// function user(name="Bilgi Yok", age="Bilgi Yok") {
+//     console.log(`Isim: ${name} Yas: ${age}`);
+// }
+// user("Furkancan");
+
+
+//return function
+// function suqare(x){
+// return x * x;
+// }
+// const result = suqare(5) * 3; // 5 in karesi carpi 3 demek.
+// console.log(result);
+
+//ARROW FUNCTION 
+
+// const square = (x) => x * x;
+// return x * x;
+//}
+// const square = (x) => x * x;
+// console.log(square(5));
+
+//WHILE DONGUSU 
+
+// let i = 0;
+// while(i < 10) {
+    
+//     console.log(i);
+//     i++;
+// }
+
+// while(i < 10) {
+//     if (i == 3) {
+//         i++;
+//         continue;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+//DO WHILE DONGUSU
+// do{
+//     console.log(i);
+//     i++;
+// }while(i < 10);
+
+//forEach DONGUSU
+//  const langs = ["Python", "Java", "C++", "Javascript"];
+//  langs.forEach(function(lang, index) {
+//     console.log(lang, index);
+// });
+
+//MAP DONGUSU
+// langs.map(function(lang, index) {
+//     console.log(lang, index);
+// });
+
 
 
 
