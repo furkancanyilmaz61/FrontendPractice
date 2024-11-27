@@ -82,20 +82,19 @@ function loadTodos() {
     todos.forEach(todo => addTaskToList(todo.text, todo.completed));
 }
 
-// Local Storage'dan Görev Getir
+// Fetch Task from Local Storage
 function getTodosFromLocalStorage() {
     const todos = localStorage.getItem('todos');
     return todos ? JSON.parse(todos) : [];
 }
 
-// Local Storage'dan Görev Sil
+//Delete Task from Local Storage
 function removeFromLocalStorage(taskText) {
     let todos = getTodosFromLocalStorage();
     todos = todos.filter(todo => todo.text !== taskText);
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-// Görev Tamamlama Durumunu Güncelle
 function toggleCompletionInLocalStorage(taskText) {
     let todos = getTodosFromLocalStorage();
     todos = todos.map(todo => {
@@ -107,7 +106,7 @@ function toggleCompletionInLocalStorage(taskText) {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-// Görev Düzenle
+// Edit Task
 function editTaskInLocalStorage(oldText, newText) {
     let todos = getTodosFromLocalStorage();
     todos = todos.map(todo => {
