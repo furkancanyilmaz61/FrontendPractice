@@ -69,15 +69,15 @@
 
 
 //DESTRUCTING ASSIGNMENT
-let user = {
-    name: "Furkancan",
-    age: 24,
-    city: "Trabzon",
-    lang: ["Java", "Python", "Javascript"],
-    };
+// let user = {
+//     name: "Furkancan",
+//     age: 24,
+//     city: "Trabzon",
+//     lang: ["Java", "Python", "Javascript"],
+//     };
 
-    let {name, ...geriKalanlar } = user;
+//     let {name, ...geriKalanlar } = user;
 
-    console.log( name, geriKalanlar);
+//     console.log( name, geriKalanlar);
 
 
